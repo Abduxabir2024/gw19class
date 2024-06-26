@@ -9,9 +9,11 @@ function App() {
 
   return (
     <>
-    <Link to={"/"}>Page1</Link>
+  <div className="l">
+  <Link to={"/"}>Page1</Link>
     <Link to={"/page2"}>Page2</Link>
     <Link to={"/page3"}>Page3</Link>
+  </div>
     <Routes>
       <Route path='/' element={<Page1/>}/>
       <Route path='/page2' element={<Page2/>}/>
